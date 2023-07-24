@@ -1,0 +1,40 @@
+/* Tabla.css */
+
+.tabla-container {
+    margin: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pagination-buttons p {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .items-per-page {
+    display: flex;
+    align-items: center;
+  }
+  
+  .items-per-page p {
+    margin: 0 10px;
+  }
+  
+  .table {
+    min-width: 650px;
+  }
+  
+  .table-row:hover {
+    background-color: #f5f5f5;
+  }
+  
